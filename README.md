@@ -4,6 +4,9 @@ Mesh network using ESP8266, ESP32,
 PainlessMesh, and some sensors to 
 sense and log environmental data.
 
+* **Edge node** - ESP32/ESP8266 paired with a Raspberry Pi
+* **Other nodes** - ESP32/ESP8266
+
 ## How to use - Raspberry Pi logger
 
 The Raspberry Pi logger, in rpi_logger directory, runs continuously and stores messages received by the Pi (through the master node via serial connection) in a SQLite3 DB.  To run:
